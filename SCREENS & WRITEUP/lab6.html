@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+
+<html lang="en">
+
+<head>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:600italic,700,400' rel='stylesheet' type='text/css'>
+
+  <meta charset="UTF-8"/>
+  <meta name = "description"  content = "CMPSC 457 Lab #5 Writeup" />
+  <meta name = "keywords"     content = "Matthew, Panetta, Lab, CMPSC457, OpenGL, ragdoll, 3D"/>
+  <meta name = "robots"       content = "index,follow"/>
+
+  <base href = "http://65.185.85.1/"/>
+
+  <link rel = "stylesheet" href = "styles.css"/>
+
+  <title>CMPSC 457 Lab #6 Writeup</title>
+
+</head>
+
+<body>
+
+  <div id="wrapper">
+    <header>
+      <h1>CMPSC 457 Lab #6</h1>
+      <h2>By: Matthew Panetta</h2>
+    </header>
+
+    <main id="content">
+      <div id="labInfo">
+        <img class="sidePicture" alt="OpenGL drawing of three lamps" src="lab6.PNG" />
+        <img class="sidePicture" alt="OpenGL drawing of three lamps" src="lab6_2.png" />
+        <h3>Instructions</h3>
+        <div id="directions">
+          In this lab I needed to:
+          <ul id="objectives">
+            <li>Draw an environment consisting of two tables</li>
+            <li>Move the camera and walk around in the environment</li>
+            <li>Add an overhead light and three lamps (red, green, blue) to the scene.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div id="implement-wrapper">
+
+
+        <h3>My Implementation</h3>
+
+        <div id="implementations">
+          <ul id="info">
+            <li>I made the two tables using scaled cubes. The lamps are made of a cube base, an elongated cube support, and the lamp is a wire sphere.</li>
+            <li>The overhead light emits diffuse, ambient, and specular light. The user can control the light intensity using the 0-9 keys.</li>
+            <li>The user can move around the scene using the arrow keys. UP = move forward, DOWN = move backward, LEFT = change heading left, RIGHT = change heading right. PAGE UP = ascend vertically, PAGE DOWN = descend vertically. HOME = look up, END = look down.</li>
+            <li>The three lamp lights emit red, green, and blue diffuse light respectively.</li>
+            <li>The lamp heads have colored material, everything else has gray material.</li>
+          </ul>
+        </div>
+
+      <div id="code">
+        <h3>Source Code</h3>
+        <p id="sourceCode">
+          The source code is available on:
+          <a href="https://github.com/matthewpanetta/CMPSC457_Lab5">Github</a>
+          <br>Or, here is the
+          <a href="https://github.com/matthewpanetta/CMPSC457_Lab5/blob/master/Lab5/Source.cpp">
+            Source.cpp</a> file on GitHub.
+          </p>
+        </div>
+      </main>
+    </div>
+  </body>
+
+  </html>
